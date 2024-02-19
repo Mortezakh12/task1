@@ -1,0 +1,33 @@
+/* Reset style */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+:root {
+  --color-primary: #219f95;
+  --color-secondary: #afcedd;
+  --color-badge:#AFCEDD;
+
+  --text-primary: #1e1e1e;
+  --text-secondart: #696969;
+  --text-header: #234894;
+}
+html{
+  font-size: 62.5%;
+}
+body {
+  font-family:'IranianSans','IranianSansBold';
+  background-color: #FFFFFF;
+  ;
+}
+h2{
+  font-family: 'IranianSansBold';
+}
+
+.container {
+}
