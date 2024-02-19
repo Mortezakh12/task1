@@ -11,23 +11,100 @@
 :root {
   --color-primary: #219f95;
   --color-secondary: #afcedd;
-  --color-badge:#AFCEDD;
-
+  --color-badge: #afcedd;
   --text-primary: #1e1e1e;
   --text-secondart: #696969;
   --text-header: #234894;
 }
-html{
+html {
   font-size: 62.5%;
 }
 body {
-  font-family:'IranianSans','IranianSansBold';
-  background-color: #FFFFFF;
-  ;
+  font-family: "IranianSans", "IranianSansBold";
+  background-color: #ffffff;
+  margin-top: 86px;
+  margin-left: 82px;
+  margin-right: 82px;
 }
-h2{
-  font-family: 'IranianSansBold';
+title h2 {
+  font-family: "IranianSansBold";
+  color: var(--text-primary);
 }
 
 .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.all-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  flex-wrap: wrap;
+  gap: 6rem;
+  overflow: hidden;
+  height: 80vh;
+}
+
+.item {
+  flex: 1 1 auto;
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.item-header {
+  display: flex;
+  justify-content: space-between;
+}
+.item-detail {
+  color: var(--text-secondart);
+}
+.item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.item-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.item-profile {
+  display: flex;
+  gap: 0.5rem;
+}
+span {
+  color: var(--text-header);
+  background-color: var(--color-badge);
+  padding: 0.5em 1em;
+  border-radius: 0.5rem;
+  font-size: medium;
+}
+h2 {
+  color: var(--text-header);
+}
+img {
+  border-radius: 0.5rem;
+  width: 3rem;
+}
+h3 {
+  color: var(--text-primary);
+  font-weight: bold;
+  font-size: larger;
+}
+h4 {
+  color: var(--text-primary);
+  font-size: medium;
+}
+button {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: "IranianSans";
 }
